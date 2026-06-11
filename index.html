@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GradientLab 🎨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>🎨 GradientLab</h1>
+        <p class="subtitle">Create Beautiful Gradients Instantly</p>
+
+        <button id="generateBtn">
+            Generate Random Gradients
+        </button>
+
+        <div id="paletteContainer"></div>
+
+        <h2>Create Your Custom Gradient</h2>
+
+        <div class="color-picker-container" id="colorPickers">
+
+            <div class="color-picker-wrapper">
+                <input type="color" value="#ff0000">
+            </div>
+
+            <div class="color-picker-wrapper">
+                <input type="color" value="#00ff00">
+            </div>
+
+            <div class="color-picker-wrapper">
+                <input type="color" value="#0000ff">
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button id="addColor">
+                Add Color
+            </button>
+
+            <button id="createCustomBtn">
+                Generate Custom Gradient
+            </button>
+        </div>
+
+        <div id="customPaletteContainer"></div>
+
+        <h2>Preset Gradients</h2>
+
+        <div id="presetContainer"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
