@@ -21,7 +21,7 @@ GradientLab Studio is a modern gradient generator built using HTML, CSS, and Jav
 
 ## Author
 
-Saee
+Tanvi
 
 ## Project Preview
 
